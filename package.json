@@ -1,0 +1,30 @@
+{
+  "name": "projeto-node-api",
+  "version": "1.0.0",
+  "description": "API criada em NODE com EXPRESS para ser comunicar com o front feito em REACT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielpellegrino/projeto-node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arielpellegrino/projeto-node-api/issues"
+  },
+  "homepage": "https://github.com/arielpellegrino/projeto-node-api#readme",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
+  }
+}
